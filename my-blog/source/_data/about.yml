@@ -1,0 +1,90 @@
+- class_name: 关于页
+  subtitle: 保持稳妥，万事可控✨
+  avatarImg: /img/jay.jpg
+  avatarSkills:
+    left:
+      - 🏠 智能家居折腾者
+      - 📱 数码产品爱好者
+      - 🤖 AI科技追随者
+      - 📊 数据分析与可视化
+    right:
+      - 项目管理核心课 💼
+      - 设计开发全能手 🔧
+      - 团队协作专家 🤝
+      - 创新思维践行者 💡
+
+  name: JAY
+  description: 是一名 销售工程师兼独立开发者
+  aboutsiteTips:
+    tips: 追求
+    title1: 源于
+    title2: 热爱而去 感受
+    word:
+      - 智能生活
+      - 科技创新
+      - 人工智能奥秘
+      - 敏捷迭代之旅
+  helloAbout: Hello there!
+  skillsTips:
+    tips: 技能
+    title: 开启创造力
+  careers:
+    tips: 生涯
+    title: 无限进步
+    list:
+      - desc: USYD,信息技术专业
+        color: "#357ef5"
+      - desc: UTS,信息技术专业
+        color: "#357ef5"
+     
+    img: /img/timeline1.png
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+  map:
+    title: 我现在住在
+    StrengthenTitle: 中国，东莞市
+    background: /img/map_light.jpg
+    backgroundDark: /img/map_dark.jpg
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 保密
+    selfInfoTips2: 悉尼编程学习
+    selfInfoContent2: 信息技术
+    selfInfoTips3: 现在职业
+    selfInfoContent3: 打工人👨‍🎓
+  personalities:
+    author_name: 执政官
+    personality_type: ESFJ-A
+    photo_url: /img/map_dark.jpg
+    personality_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/ESFJ-A.svg
+    name_url: https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
+  maxim:
+    maxim_tips: 座右铭
+    maxim_top: Explore the unknown, master the future.
+    maxim_bottom: 探索未知，掌握未来。
+  buff:
+    buff_tips: 特长
+    buff_top: 智能家居折腾者
+    buff_bottom: 数码产品达人
+
+  like:
+    like_tips: 关注偏好
+    like_title: 数码科技
+    like_bg: https://bu.dusays.com/2022/12/06/638f5f05ce1f7.jpg
+    like_bottom: 手机、电脑软硬件
+  music:
+    music_tips: 音乐偏好
+    music_title: Ado、Aimer、
+                 BEYOND、粤语经典
+    music_bg: /img/music.jpeg
+    music_link: /music
+  #reward_list:
+   # - name: 海阔蓝
+   #   amount: 8.8
+   #   datatime: 2023-03-28
+   # - name: 哇是猫猫欸
+   #   amount: 1.34
+   #   datatime: 2022-08-19
+   #   suffix: 贝壳 
