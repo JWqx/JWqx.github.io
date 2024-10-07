@@ -6,7 +6,46 @@ cover: /img/blog4.png
 categories: 光伏电路
 ---
 
-### SMT贴片工艺
+### <center>SMT贴片工艺</center>
+
+<div style="  display: flex;
+            justify-content: center;
+            align-items: center;
+            ">
+
+```flow
+st=>start: PCB镭雕
+op1=>operation: 锡膏印刷
+op2=>operation: 红胶印刷
+op3=>operation: SPI检查
+cond1=>condition: SPI检查合格?
+op4=>operation: 贴片环节
+op5=>operation: AOI检查
+cond2=>condition: AOI检查合格?
+op6=>operation: 回流焊
+op7=>operation: AOI检查
+cond3=>condition: AOI检查合格?
+op8=>operation: AI检测
+op9=>operation: DIP流程
+op10=>operation: Off Line处理
+e=>end: 结束
+
+st(right)->op1(right)->op2->op3->cond1
+cond1(yes,down)->op4->op5->cond2
+cond1(no,right)->op10(right)
+cond2(yes,down)->op6->op7->cond3
+cond2(no,right)->op10(right)
+cond3(yes,down)->op8->op9->e
+cond3(no,right)->op10(right)
+
+cond1(yes,down,white)->op4
+cond1(no,right,white)->op10
+cond2(yes,down,white)->op6
+cond2(no,right,white)->op10
+cond3(yes,down,white)->op8
+cond3(no,right,white)->op10
+```
+</div>
 
 #### 贴片
 - **定义**：表面贴装系统（Surface Mount System），在生产线上，它配置在点胶机或丝网印刷机之后，是通过移动贴装头把表面贴装元件准确地放置在PCB焊盘上的一种设备。
