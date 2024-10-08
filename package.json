@@ -14,7 +14,7 @@
     "dependencies": {
         "echarts": "^5.5.0",
         "hexo": "^7.0.0",
-        "hexo-bilibili-bangumi": "^1.9.0",
+        "hexo-bilibili-bangumi": "^1.10.7",
         "hexo-blog-encrypt": "^3.1.9",
         "hexo-butterfly-envelope": "^1.0.15",
         "hexo-deployer-git": "^4.0.0",
