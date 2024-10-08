@@ -12,7 +12,7 @@
         "version": "7.3.0"
     },
     "dependencies": {
-        "echarts": "^5.5.0",
+        "echarts": "^5.5.1",
         "hexo": "^7.0.0",
         "hexo-bilibili-bangumi": "^1.9.0",
         "hexo-blog-encrypt": "^3.1.9",
