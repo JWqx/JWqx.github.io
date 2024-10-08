@@ -33,7 +33,7 @@
         "hexo-server": "^3.0.0",
         "hexo-tag-echarts": "^1.0.0",
         "hexo-tag-echarts-chart": "^1.0.3",
-        "hexo-tag-echarts-new": "^1.0.1",
+        "hexo-tag-echarts-new": "^1.1.0",
         "hexo-tag-echarts3": "^1.1.2",
         "hexo-tag-include": "^0.0.1",
         "hexo-theme-landscape": "^1.0.0",
