@@ -175,11 +175,6 @@ encrypt: # hexo-blog-encrypt
   wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
 
 
-echarts:
-  version: 5.5.0 # 你可以指定你需要的 ECharts 版本
-  source: /js/echarts.min.js # 使用本地资源
-  theme: /js/dark.js
-
 hexo_markmap:
   pjax: false       # Set to true if your blog uses pjax
   katex: false      # Set to true if you need KaTeX support for mathematical expressions
